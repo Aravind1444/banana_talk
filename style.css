@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+textarea {
+  width: 75%;
+  display: block;
+  display: block;
+  margin: auto;
+  height: 15vh;
+  padding: 1rem;
+}
+
+#output {
+  width: 75%;
+  height: 15vh;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid #4338ca;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: #4338ca;
+  width: 100%;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: baseline;
+  padding: 1.5rem;
+  font-family: "Lucida Sans Unicode";
+}
+
+.image {
+  height: 300px;
+  padding: 2.5rem;
+  display: block;
+  margin: auto;
+}
+
+#text-input {
+  border: 2px solid #4338ca;
+  border-radius: 10px;
+}
+
+#text-input:focus {
+  border: 2px solid green;
+  border-radius: 10px;
+  outline: none;
+}
+
+#btn-translate {
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  width: 150px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #4338ca;
+  color: white;
+}
+
+.button {
+  margin: 2rem;
+}
+
+footer {
+  background-color: #4338ca;
+  color: white;
+  text-align: center;
+  padding: 2rem 10rem;
+  font-size: 17px;
+}
+
+.about-title {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.about-content {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode";
+  text-align: justify;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    background-color: #4338ca;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    font-size: 17px;
+  }
+
+  .about-title {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  .about-content {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+    font-family: "Lucida Sans Unicode";
+    text-align: justify;
+    justify-content: space-evenly;
+  }
+}
